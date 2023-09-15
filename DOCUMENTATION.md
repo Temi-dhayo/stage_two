@@ -35,7 +35,7 @@ This API allows you to manage a collection of persons. You can create, retrieve,
 
     ```json
     {
-      "name": "Hutty"
+      "name": "Tim"
     }
     ```
 
@@ -46,7 +46,7 @@ This API allows you to manage a collection of persons. You can create, retrieve,
   ```json
   {
     "id": 1,
-    "name": "Hutty"
+    "name": "Tim"
   }
   ```
 
@@ -68,7 +68,7 @@ This API allows you to manage a collection of persons. You can create, retrieve,
 - **Postman and Search Engine Format:**
   - URL: `https://hng-stage-two-fek8.onrender.com/api/1` (where `1` is the person's ID)
   OR
-  - URL: `https://hng-stage-two-fek8.onrender.com/api/hutty` (where `hutty` is the person's name)
+  - URL: `https://hng-stage-two-fek8.onrender.com/api/Tim` (where `Tim` is the person's name)
 
 #### GET Response Format
 
@@ -77,7 +77,7 @@ This API allows you to manage a collection of persons. You can create, retrieve,
   ```json
   {
     "id": 1,
-    "name": "Hutty"
+    "name": "Tim"
   }
   ```
 
@@ -104,7 +104,7 @@ This API allows you to manage a collection of persons. You can create, retrieve,
 
     ```json
     {
-      "name": "Henry"
+      "name": "Deji"
     }
     ```
 
@@ -115,7 +115,7 @@ This API allows you to manage a collection of persons. You can create, retrieve,
   ```json
   {
     "id": 1,
-    "name": "Henry"
+    "name": "Deji"
   }
   ```
 
@@ -156,13 +156,13 @@ POST https://hng-stage-two-fek8.onrender.com/api/
 Headers: Content-Type: application/json
 Body (JSON):
 {
-  "name": "Hutty"
+  "name": "Tim"
 }
 
 Response (HTTP 201 Created):
 {
   "id": 1,
-  "name": "Hutty"
+  "name": "Tim"
 }
 ```
 
@@ -175,7 +175,7 @@ GET https://hng-stage-two-fek8.onrender.com/api/1
 Response (HTTP 200 OK):
 {
   "id": 1,
-  "name": "Hutty"
+  "name": "Tim"
 }
 ```
 
@@ -189,7 +189,7 @@ PUT https://hng-stage-two-fek8.onrender.com/api/1
 Headers: Content-Type: application/json
 Body (JSON):
 {
-  "name": "Henry Hart"
+  "name": "Deji Hart"
 }
 
 Response (HTTP 202 Accepted):
@@ -221,7 +221,7 @@ No authentication or authorization mechanisms are implemented in this version of
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Hutty10/stage_two.git
+   git clone https://github.com/Temi-dhayo/stage_two.git
    ```
 
 2. Create a virtual environment and activate it:
