@@ -15,7 +15,7 @@
 1. Clone GitHub project
 
     ```bash
-    git clone https://github.com/Hutty10/stage_two.git
+    git clone https://github.com/Temi-dhayo/stage_two.git
     ```
 
 2. Install Requirements File:
@@ -43,11 +43,11 @@
 ## Documentation
 
 -for documentation check
-[GitHub](https://github.com/Hutty10/stage_two/blob/master/DOCUMENTATION.md)
+[GitHub](https://github.com/Temi_dhayo/stage_two/blob/master/DOCUMENTATION.md)
 
 ## Testing
 
-check[GitHub](https://github.com/Hutty10/stage_two/blob/master/stagetwo/tests.py) for testimg script
+check[GitHub](https://github.com/Temi_dhayo/stage_two/blob/master/stagetwo/tests.py) for testimg script
 To test the application, run this command in your terminal:
 
 ```bash
